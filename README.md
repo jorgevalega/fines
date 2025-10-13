@@ -22,7 +22,23 @@ FinEs es una aplicación web gratuita pensada para facilitar la gestión financi
 
 ## 📂 Estructura
 
-[Se mostrará la estructura de carpetas]
+FinEs/
+├── backend/
+│   ├── app.py              ← Flask con base de rutas
+│   ├── db.py               ← Conexión MariaDB
+│   └── models.py           ← Clases y helpers
+├── frontend/
+│   ├── static/
+│   │   └── css/
+│   └── templates/
+│       ├── index.html      ← Vista de inicio
+│       ├── login.html      ← Login con Google/email (visual)
+│       └── dashboard.html  ← Panel básico de finanzas
+├── database/
+│   └── esquema.sql         ← Script SQL para crear la base
+├── .env.example            ← Variables: DB, Google OAuth, etc.
+├── requirements.txt        ← Dependencias Python
+└── README.md               ← Instrucciones completas (en español)
 
 ## ⚙️ Instalación local
 
