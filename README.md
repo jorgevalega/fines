@@ -22,6 +22,7 @@ FinEs es una aplicación web gratuita pensada para facilitar la gestión financi
 
 ## 📂 Estructura
 
+```bash
 FinEs/
 ├── backend/
 │   ├── app.py              ← Flask con base de rutas
@@ -39,6 +40,7 @@ FinEs/
 ├── .env.example            ← Variables: DB, Google OAuth, etc.
 ├── requirements.txt        ← Dependencias Python
 └── README.md               ← Instrucciones completas (en español)
+```
 
 ## ⚙️ Instalación local
 
